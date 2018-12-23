@@ -10,16 +10,16 @@ Then we make a oneToMany relationship for prefectures and municipalities we save
 and then we retrieve all the municipalities for each prefecture.
 An example of outcome can be seen below:
 
-Prefecture ETOLOAKARNANIA 
-Municipalities{  
+Prefecture ETOLOAKARNANIA   
+Municipalities{   
 Id:672 Name:AGRINIO ParentId:484    
 Id:673 Name:AMFILOCHIA ParentId:484 
 Id:674 Name:MESOLOGI ParentId:484  
-Id:675 Name:NAYPAKTOS ParentId:484 
+Id:675 Name:NAYPAKTOS ParentId:484   
 } 
 
-Prefecture ARKADIA  
-Municipalities{  
+Prefecture ARKADIA   
+Municipalities{    
 Id:534 Name:ASTROS ParentId:475  
 Id:535 Name:TRIPOLI ParentId:475  
 Id:536 Name:PARALIO ASTROS ParentId:475  
