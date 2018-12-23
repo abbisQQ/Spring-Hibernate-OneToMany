@@ -1,20 +1,7 @@
 # Spring-Hibernate-OneToMany
 Spring-Hibernate OneToMany
 
-This is a project that consumes an api that supply data in the json below.
-
-{
-"prefectures"
-:{"name": "ETOLOAKARNANIA","id":484,"parentId":null},
-"municipalities":[{
-"name"
-:"AGRINIO",
-"id":672,
-"parentId":484 },{
-"name":"AMFILOCHIA",
-"id":673,
-"parentId":484 }
-]
+This is a project that consumes an api that supply data  json format about prefectures and municipalities of Greece.
 
 The url is: http://devsrv.forth-crs.gr/crs-core-1.0-SNAPSHOT/services/openseas/agencies/area-data/en/88 
 We get those data and manipulate them using jackson-databind
