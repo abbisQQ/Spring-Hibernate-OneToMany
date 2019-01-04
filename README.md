@@ -3,8 +3,7 @@ Spring-Hibernate OneToMany
 
 This is a project that consumes an api that supplies data  json format about prefectures and municipalities of Greece.
 
-The url is: http://devsrv.forth-crs.gr/crs-core-1.0-SNAPSHOT/services/openseas/agencies/area-data/en/88 
-We get those data and manipulate them using jackson-databind
+We get the data and manipulate it using jackson-databind
 
 Then we make a oneToMany relationship for prefectures and municipalities we save those values in a database
 and then we retrieve all the municipalities for each prefecture.
