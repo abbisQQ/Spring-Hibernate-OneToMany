@@ -30,7 +30,7 @@ public class ProjectApplication {
 
 		try {
 			URL url = new URL(
-					"http://devsrv.forth-crs.gr/crs-core-1.0-SNAPSHOT/services/openseas/agencies/area-data/en/88");
+					"The URL goes here");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.connect();
